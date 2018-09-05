@@ -1,0 +1,138 @@
+/*GERAL*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #141526;
+    color: white;
+    font-size: 2vw;
+}
+
+/*MENU*/
+.menu {
+    display: flex;
+    justify-content:space-around;
+    padding: 15px; margin: 0 
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.menu li a:hover {
+    color: #2DC5B7;
+}
+
+/*IMG CABEÇALHO*/
+.img-fundo {
+    background-image: url(../imagens/tecnologia.jpg);
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+}
+
+/*CABEÇALHO*/
+header {
+    text-align: center;   
+}
+
+h1 {
+    font-size: 5.0vw; 
+}
+
+/*FORMULÁRIO*/
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao {
+    display: block;
+    margin: 0 auto;   
+    border-radius: 20px;
+}
+
+.botao:hover {
+    color: #141526;
+    background-color: white; 
+}
+
+/*CADASTRAR*/
+.cadastrar {
+    padding: 30px;
+}
+
+.botao2 {
+    border-radius: 20px
+}
+
+.botao2:hover {
+    color: #141526;
+    background-color: white; 
+}
+
+/*COMENTÁRIOS*/
+.coment {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.coment textarea {
+    text-align: center;
+    border: 5px solid;
+    overflow: scroll;
+    height: 15vh;
+}
+
+/*RODAPÉ*/
+.rodape {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 50px;
+    background-image: url(../imagens/footer.jpg);
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.rodape p a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw
+} 
+
+.rodape p a:hover {
+    text-decoration: none;
+    color: #2DC5B7 ;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
